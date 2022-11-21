@@ -1,0 +1,45 @@
+body{
+    background:rgb(255, 102, 0);
+  }
+  
+  #timer{
+    font-size:50px;
+    text-align:center;
+    margin-top:100px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    width: 400px;
+ 
+
+  }
+  #start,#reset{
+    background-color:white;
+    border: 2px solid blue;
+    width:100px;
+    height:30px;
+    margin:5px;
+    border-radius:10px;
+    font-weight:bold;
+     text-align:center;
+  }
+  .button{
+    text-align:center;
+    margin:10px;
+  }
+  #start:hover,#reset:hover{
+   cursor: pointer;
+  }
+  .button{
+    background-color: yellow;
+    height: 300px;
+    width: 400px;
+    margin-left: 600px;
+    border-radius: 7px;
+  }
+  #timer{
+    background-color: yellow;
+    height: 50px;
+    width: 400px;
+    margin-left: 600px;
+    border-radius: 7px;
+  }
